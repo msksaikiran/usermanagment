@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+	
+	background:url(best2.jpeg) no-repeat;
+	background-size:cover;
+	
+} 
+h1{
+	font-style: italic; 
+	font-size: larger;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.font{
+	font-style: italic; 
+	font-size: smaller; 
+	margin-top: 212px; 
+	margin-left: 501px;
+}
+.font2{
+	font-style: italic; 
+	font-size: smaller; 
+	margin-top: 212px; 
+	margin-left: 501px;
+}
+.page{
+	width:357px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-style: italic; 
+	font-size: smaller; 
+	
+}
