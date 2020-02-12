@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.bridgelabzs.model.Util;
+import com.bridgelabzs.model.Dao;
 
 @WebServlet("/view/login")
 public class LoginServlet extends HttpServlet {
@@ -61,7 +61,7 @@ public class LoginServlet extends HttpServlet {
 	public String login(String name, String password) throws Exception {
 		String rsname = null;
 		String query = "select * from login.inventory where username=? and password=?";
-		Connection conn = Util.DbConnection();
+		Connection conn = Dao.DbConnection();
 		PreparedStatement pst = conn.prepareStatement(query);
 		pst.setString(1, name);
 		pst.setString(2, password);

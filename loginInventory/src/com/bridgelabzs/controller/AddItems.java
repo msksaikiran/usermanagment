@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import com.bridgelabzs.model.Util;
+import com.bridgelabzs.model.Dao;
 
 public class AddItems extends HttpServlet {
 	private JSONObject json1 = new JSONObject();

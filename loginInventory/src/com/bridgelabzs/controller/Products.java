@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import com.bridgelabzs.model.Util;
+import com.bridgelabzs.model.Dao;
 
 @WebServlet("/view/products")
 public class Products extends HttpServlet{
@@ -24,7 +24,7 @@ public void inventoryProducts() {
 	
 	JSONArray obj;
 	try {
-		obj = Util.readFile();
+		obj = Dao.readFile();
 		obj.forEach((data) -> {
 			JSONObject data2 = (JSONObject) data;
 			Set keys = data2.keySet();

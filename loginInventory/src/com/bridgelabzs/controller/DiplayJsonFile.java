@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import com.bridgelabzs.model.Util;
+import com.bridgelabzs.model.Dao;
 
 @WebServlet("/view/display")
 public class DiplayJsonFile extends HttpServlet {
@@ -24,7 +24,7 @@ public class DiplayJsonFile extends HttpServlet {
 		String choice = req.getParameter("item");
 		req.getRequestDispatcher("link.html").include(req, res);
 		try {
-			JSONArray obj = Util.readFile();
+			JSONArray obj = Dao.readFile();
 			obj.forEach((data) -> {
 				//System.out.println(data);
 				
@@ -54,7 +54,7 @@ public class DiplayJsonFile extends HttpServlet {
 	@SuppressWarnings("unchecked")
 	public void displayItems(String choice) {
 		try {
-			JSONArray obj = Util.readFile();
+			JSONArray obj = Dao.readFile();
 			obj.forEach((data) -> {
 				//System.out.println(data);
 				

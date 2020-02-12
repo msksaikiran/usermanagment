@@ -8,10 +8,10 @@ import java.sql.SQLException;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 
-public class Util {
+public class Dao {
 	private static Connection con;
 
-	private Util() {
+	private Dao() {
 	};
 
 		static {

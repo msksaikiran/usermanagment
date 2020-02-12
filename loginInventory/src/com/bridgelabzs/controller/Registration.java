@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bridgelabzs.model.Util;
+import com.bridgelabzs.model.Dao;
 @WebServlet("/view/register")
 public class Registration extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -42,7 +42,7 @@ public class Registration extends HttpServlet {
 	public int register(String name, String password, String gender, String address) throws Exception {
 		String query = "insert into login.inventory values(?,?,?,?)";
 		System.out.println("**********");
-		Connection conn = Util.DbConnection();
+		Connection conn = Dao.DbConnection();
 		PreparedStatement pst = conn.prepareStatement(query);
 		pst.setString(1, name);
 		pst.setString(2, password);
