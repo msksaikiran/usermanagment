@@ -1,6 +1,6 @@
 package com.bridgelabzs.exception;
 
-public class UserException {
+public class UserException extends RuntimeException{
 
 	private String msg;
 
@@ -8,5 +8,5 @@ public class UserException {
 		super();
 		this.msg = msg;
 	}
-	
+
 }

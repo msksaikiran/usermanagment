@@ -1,5 +1,6 @@
 package com.bridgelabzs.service;
 
+import com.bridgelabzs.exception.UserException;
 import com.bridgelabzs.model.User;
 import com.bridgelabzs.repository.CountryService;
 import com.bridgelabzs.repository.ICountryService;
@@ -26,7 +27,7 @@ public class UserServiceImplementation implements Service {
 		result = countryDao.userRegister(name,password,gender,address);
 		
 		}catch(Exception ae) {
-			ae.getMessage();
+			throw new UserException("Invalid Details");
 		}
 		return result;
 	}
@@ -41,7 +42,7 @@ public class UserServiceImplementation implements Service {
 		result = countryDao.CountryRegister(name,population);
 		
 		}catch(Exception ae) {
-			ae.getMessage();
+			throw new UserException("Invalid Details");
 		}
 		return result;
 	}

@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import com.bridgelabzs.exception.UserException;
 import com.bridgelabzs.model.Country;
 import com.bridgelabzs.utils.Util;
 
@@ -29,7 +30,7 @@ public class CountryService implements ICountryService {
 				rsname = result.getString(1);
 			}
 		} catch (Exception ae) {
-
+			throw new UserException("Invalid Details");
 		}
 		return rsname;
 	}
@@ -46,8 +47,9 @@ public class CountryService implements ICountryService {
 			pst.setString(3, gender);
 			pst.setString(4, address);
 			result = pst.executeUpdate();
+			
 		} catch (Exception ae) {
-
+			throw new UserException("Invalid Details");
 		}
 		return result;
 	}
@@ -68,7 +70,7 @@ public class CountryService implements ICountryService {
 			}
 
 		} catch (Exception e) {
-			System.out.println(e);
+			throw new UserException("Invalid Details");
 		}
 		return list;
 	}
@@ -90,6 +92,7 @@ public class CountryService implements ICountryService {
 
 		} catch (SQLException ex) {
 			Logger.getLogger(CountryService.class.getName()).log(Level.SEVERE, null, ex);
+			throw new UserException("Invalid Details");
 		}
 
 		return numOfRows;
@@ -109,7 +112,7 @@ public class CountryService implements ICountryService {
 			result = pst.executeUpdate();
 		} catch (Exception ae) {
 
-			System.out.println(ae);
+			throw new UserException("Invalid Details");
 		}
 		return result;
 	}
