@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
 	
-	background:url(best2.jpeg) no-repeat;
+	background:url("/home/user/Desktop/usermanagment/loginInventory/WebContent/image/best2.jpeg") no-repeat;
 	background-size:cover;
 	
 } 
@@ -10,7 +10,6 @@ h1{
 	font-size: larger;
 	text-decoration-line: underline;
     text-decoration-style: solid;
-    
 }
 
 .font{
@@ -35,5 +34,3 @@ h1{
 	margin : 280px; 
 	margin-left: 449px;"
 }  
-
-
