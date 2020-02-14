@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.bridgelabz.userMangment.exception" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/exception" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="270" x="40" y="146"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="com.bridgelabz.userMangment.configuration" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/configuration" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="177" y="55"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="com.bridgelabz.userMangment.controller" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="276" x="38" y="88"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="com.bridgelabz.userMangment.dto" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/dto" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="265" x="42" y="201"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="com.bridgelabz.userMangment.filter" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/filter" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="262" x="43" y="255"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="com.bridgelabz.userMangment.model" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="260" x="46" y="316"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="com.bridgelabz.userMangment.repository" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/repository" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="268" x="45" y="377"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="com.bridgelabz.userMangment.service" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="269" x="46" y="434"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="com.bridgelabz.userMangment.utils" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/utils" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="263" x="48" y="489"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="10" language="java" name="com.bridgelabz.userMangment.controller.Login" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/Login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="80"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.bridgelabz.userMangment.controller.Logout" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/Logout.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="500" y="190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.bridgelabz.userMangment.controller.Products" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/Products.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="337"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.bridgelabz.userMangment.controller.Profile" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/Profile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="497" y="475"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.bridgelabz.userMangment.controller.ReadCountries" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/ReadCountries.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="822" y="85"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.bridgelabz.userMangment.controller.RegisterCountry" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/RegisterCountry.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="837" y="216"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.bridgelabz.userMangment.controller.Registration" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/Registration.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="842" y="350"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.bridgelabz.userMangment.controller.ViewServlet" project="userManagment" 
+    file="/userManagment/src/com/bridgelabz/userMangment/controller/ViewServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="865" y="478"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
