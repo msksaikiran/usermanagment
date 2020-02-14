@@ -34,6 +34,7 @@ public class Jsonfile extends HttpServlet{
 		double wt = Double.parseDouble(weight);
 		double pr = Double.parseDouble(price);
 		createJsonFile(choice,name,wt,pr);
+		//req.getSession().setMaxInactiveInterval(10);
 		req.getRequestDispatcher("inventory.html").include(req,res);
 		
 	}

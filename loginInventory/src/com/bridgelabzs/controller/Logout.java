@@ -11,19 +11,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;  
 
 @WebServlet("/view/logout")
-public class LogoutServlet extends HttpServlet {  
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)  
-                        throws ServletException, IOException {  
-        response.setContentType("text/html");  
-        PrintWriter out=response.getWriter();  
-          
-          
-        request.getRequestDispatcher("link.html").include(request, response);  
-          
-        Cookie ck=new Cookie("name","");  
-        ck.setMaxAge(0);  
-        response.addCookie(ck);  
-        out.print("<font color=#fdfdfd>");
-        out.print("you are successfully logged out!");  
-    }  
+public class Logout extends HttpServlet {  
+    
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out=response.getWriter();
+		
+		Cookie ck=new Cookie("name","");
+		ck.setMaxAge(0);
+		response.addCookie(ck);
+		System.out.println(ck+":destroy");
+		out.print("you are successfully logged out!");
+	}
 }  
