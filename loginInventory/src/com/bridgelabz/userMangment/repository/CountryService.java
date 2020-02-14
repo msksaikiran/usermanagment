@@ -1,4 +1,4 @@
-package com.bridgelabzs.repository;
+package com.bridgelabz.userMangment.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.bridgelabzs.exception.UserException;
-import com.bridgelabzs.model.Country;
-import com.bridgelabzs.utils.Util;
+import com.bridgelabz.userMangment.exception.UserException;
+import com.bridgelabz.userMangment.model.Country;
+import com.bridgelabz.userMangment.utils.Util;
 
 public class CountryService implements ICountryService {
 

@@ -1,6 +1,6 @@
-package com.bridgelabzs.configuration;
+package com.bridgelabz.userMangment.configuration;
 
-import com.bridgelabzs.service.UserServiceImplementation;
+import com.bridgelabz.userMangment.service.UserServiceImplementation;
 
 public class FactoryUser {
 

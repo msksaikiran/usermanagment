@@ -1,4 +1,4 @@
-package com.bridgelabzs.filter;
+package com.bridgelabz.userMangment.filter;
 
 import javax.servlet.FilterConfig;
 import javax.servlet.RequestDispatcher;

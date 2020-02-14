@@ -1,4 +1,4 @@
-package com.bridgelabzs.controller;
+package com.bridgelabz.userMangment.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.bridgelabzs.model.Country;
-import com.bridgelabzs.repository.CountryService;
+import com.bridgelabz.userMangment.model.Country;
+import com.bridgelabz.userMangment.repository.CountryService;
 
 
 @WebServlet(name = "ReadCountries", urlPatterns = {"/view/ReadCountries"})

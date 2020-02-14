@@ -1,9 +1,9 @@
-package com.bridgelabzs.service;
+package com.bridgelabz.userMangment.service;
 
-import com.bridgelabzs.exception.UserException;
-import com.bridgelabzs.model.User;
-import com.bridgelabzs.repository.CountryService;
-import com.bridgelabzs.repository.ICountryService;
+import com.bridgelabz.userMangment.exception.UserException;
+import com.bridgelabz.userMangment.model.User;
+import com.bridgelabz.userMangment.repository.CountryService;
+import com.bridgelabz.userMangment.repository.ICountryService;
 
 
 public class UserServiceImplementation implements Service {

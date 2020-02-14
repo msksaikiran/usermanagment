@@ -1,4 +1,4 @@
-package com.bridgelabzs.service;
+package com.bridgelabz.userMangment.service;
 
 public interface Service {
 

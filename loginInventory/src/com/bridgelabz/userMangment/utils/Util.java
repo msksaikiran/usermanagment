@@ -1,4 +1,4 @@
-package com.bridgelabzs.utils;
+package com.bridgelabz.userMangment.utils;
 
 import java.io.FileReader;
 import java.sql.Connection;

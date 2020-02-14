@@ -1,4 +1,4 @@
-package com.bridgelabzs.controller;
+package com.bridgelabz.userMangment.controller;
 
 
 import java.io.FileWriter;

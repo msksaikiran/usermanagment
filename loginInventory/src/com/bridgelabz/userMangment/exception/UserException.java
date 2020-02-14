@@ -1,4 +1,4 @@
-package com.bridgelabzs.exception;
+package com.bridgelabz.userMangment.exception;
 
 public class UserException extends RuntimeException{
 

@@ -1,4 +1,4 @@
-package com.bridgelabzs.controller;
+package com.bridgelabz.userMangment.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bridgelabzs.model.User;
+import com.bridgelabz.userMangment.model.User;
 
 @WebServlet("/view/profile")
 public class Profile extends HttpServlet {

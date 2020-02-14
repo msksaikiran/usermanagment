@@ -1,4 +1,4 @@
-package com.bridgelabzs.controller;
+package com.bridgelabz.userMangment.controller;
 
 import java.util.Set;
 
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import com.bridgelabzs.utils.Util;
+import com.bridgelabz.userMangment.utils.Util;
 
 
 @WebServlet("/view/products")

@@ -1,4 +1,4 @@
-package com.bridgelabzs.controller;
+package com.bridgelabz.userMangment.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bridgelabzs.configuration.FactoryUser;
-import com.bridgelabzs.service.UserServiceImplementation;
+import com.bridgelabz.userMangment.configuration.FactoryUser;
+import com.bridgelabz.userMangment.service.UserServiceImplementation;
 
 
 

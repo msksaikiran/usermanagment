@@ -1,8 +1,8 @@
-package com.bridgelabzs.repository;
+package com.bridgelabz.userMangment.repository;
 
 import java.util.List;
 
-import com.bridgelabzs.model.Country;
+import com.bridgelabz.userMangment.model.Country;
 
 
 public interface ICountryService  {
