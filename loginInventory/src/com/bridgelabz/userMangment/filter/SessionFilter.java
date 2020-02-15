@@ -44,7 +44,7 @@ public class SessionFilter implements Filter {
 
 		PrintWriter out = response.getWriter();
 
-		int timeout = 1000;
+		int timeout = 10;
 		HttpSession sessionObj = request.getSession(true);
 
 		/***** Setting The Updated Session Time Out *****/
